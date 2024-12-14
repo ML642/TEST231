@@ -14,3 +14,10 @@ let newfitch = function(){
   
 
 }
+let newelement = document.createElement("div")
+
+newelement.style.background = "red"
+
+newelement.onclick = function (){
+    newelement.style.background = 'blue'
+}
